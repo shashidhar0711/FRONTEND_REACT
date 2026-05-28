@@ -7,9 +7,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-brand">My App</div>
       <ul className="nav-links">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
       </ul>
     </nav>
   );
